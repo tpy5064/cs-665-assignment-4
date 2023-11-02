@@ -6,6 +6,6 @@ public class LegacySystem implements CustomerData_USB{
     }
 
     public String getCustomer_USB(int customerId) {
-        return "Retrieving Customer with ID: " + customerId + "via USB connection...";
+        return "Retrieved Customer with ID: " + customerId + " via USB.";
     }
 }

@@ -6,6 +6,6 @@ public class NewSystem implements CustomerData_HTTPS{
     }
 
     public String getCustomer_HTTPS(int customerId) {
-        return "Retrieving Customer with ID: " + customerId + "via REST API & HTTPS...";
+        return "Retrieved Customer with ID: " + customerId + " via REST API & HTTPS.";
     }
 }
