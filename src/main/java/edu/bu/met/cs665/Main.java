@@ -1,9 +1,9 @@
 /**
- * Name: FIRST_NAME LAST_NAME
+ * Name: Tianqi Yang
  * Course: CS-665 Software Designs & Patterns
- * Date: MM/DD/YYYY
+ * Date: 11/06/2023
  * File Name: Main.java
- * Description: Write a description for this class
+ * Description: The entry point for the program
  */
 
 package edu.bu.met.cs665;

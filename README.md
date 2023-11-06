@@ -1,29 +1,25 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Name         | Tianqi Yang                |
+| Date         | 11/06/2023                 |
+| Course       | Fall                       |
+| Assignment # | 4                          |
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/tpy5064/cs-665-assignment-4
 
 # Implementation Description 
 
-
-For each assignment, please answer the following:
-
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+- The pattern used for this assignment is the adapter pattern, which allows the new system to be adapted as the target
+for the adaptee, the legacy system.
+- The code adheres to the principal of the adapter pattern, where no new functionality is added to the adapter class,
+in which it only re-wires the request from the legacy API to the new system.
+- The code's structure is simple and clear, and future variations of the systems can be created by extending the base
+CustomerData interfaces.
 
 
 # Maven Commands
